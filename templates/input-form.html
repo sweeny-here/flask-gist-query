@@ -1,0 +1,18 @@
+<!doctype html>
+<html>
+
+<head>
+    <title>Flask Gist Query demo</title>
+</head>
+
+<body>
+    <h1>Flask Gist Query demo</h1>
+    <form action="{{ url_for('processGists') }}" method="post">
+        <p>Enter a Github username in order to retrieve their public Gists!</p>
+        <p>Username <input type="text" name="username" /></p>
+        <p><input type="submit" value="Submit" /></p>
+    </form>
+
+</body>
+
+</html>

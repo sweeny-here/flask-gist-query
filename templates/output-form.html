@@ -1,0 +1,26 @@
+<!doctype html>
+<html>
+
+<head>
+    <title>Flask Gist Query demo</title>
+</head>
+
+<body>
+    <h1>Flask Gist Query demo</h1>
+    <p>Github username : {{ r_username }}</p>
+    <p>{{ r_message }}</p>
+    <p>{{ r_status }}</p>
+
+    <table>
+        {% for test in r_data %}
+        <tr>
+            <td>
+                <pre>{{ test|prettyJson|safe }}</pre>
+            </td>
+        </tr>
+        {% endfor %}
+    </table>
+
+</body>
+
+</html>
