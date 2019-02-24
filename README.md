@@ -104,3 +104,6 @@ Now push to your ECR of choice and deploy as a container.
 If running in AWS using Cloudformation, the Flask port number 5000 was set in the AWS::ECS::TaskDefinition PortMappings ContainerPort field and also in AWS::ECS::Service LoadBalancers ContainerPort field. All other SSL fields / protocols / ports  were set to 443 and HTTPS or 80 and HTTP. NB - according to Let's Encrypt its best practice to keep HTTP traffic enabled. I'd be interested in your opinion on this point.
 
 Happy coding!
+
+For those of you with Red Eye Syndrome (RES) - this has fuelled me during the wee hours!
+https://soundcloud.com/avidmuzikfan/solomun-live-diynamic-outdoor-june-2016-parc-del-forum
